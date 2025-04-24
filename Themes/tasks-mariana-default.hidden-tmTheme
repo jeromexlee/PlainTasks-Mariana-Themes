@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+PlainTasks – Mariana Complete
+All scopes from your legacy "Notebook" file carried over and mapped to
+Sublime’s Mariana palette (hex values derived from Mariana.hsl variables).
+-->
+<plist version="1.0">
+  <dict>
+    <key>name</key><string>Notebook — PlainTasks Mariana Complete</string>
+    <key>settings</key>
+    <array>
+      <!-- ─────────────────────────  CORE  ───────────────────────── -->
+      <dict><key>settings</key><dict>
+        <key>background</key><string>#303841</string>   <!-- blue3 -->
+        <key>foreground</key><string>#D8DEE9</string>   <!-- white3 -->
+        <key>caret</key><string>#F9AE58</string>        <!-- orange -->
+        <key>invisibles</key><string>#3B3F4B</string>
+        <key>lineHighlight</key><string>#3A4451</string> <!-- blue2 overlay -->
+        <key>selection</key><string>#3A4451</string>
+        <key>popupCss</key>
+        <string><![CDATA[
+          html, body {color:#D8DEE9;background-color:#303841}
+          a{color:#5FB4B4;}
+        ]]></string>
+      </dict></dict>
+
+      <!-- ─────────────  BASIC MARKUP  ───────────── -->
+      <dict><key>name</key><string>Comment</string><key>scope</key><string>comment, punctuation.definition.comment</string><key>settings</key><dict><key>foreground</key><string>#A6ACB9</string><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>String</string><key>scope</key><string>string</string><key>settings</key><dict><key>foreground</key><string>#99C794</string><key>background</key><string>#3A445150</string></dict></dict>
+      <dict><key>name</key><string>Number</string><key>scope</key><string>constant.numeric</string><key>settings</key><dict><key>foreground</key><string>#F9AE58</string></dict></dict>
+      <dict><key>name</key><string>Built‑in constant</string><key>scope</key><string>constant.language</string><key>settings</key><dict><key>foreground</key><string>#EC5F66</string><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>User constant</string><key>scope</key><string>constant.character, constant.other</string><key>settings</key><dict><key>foreground</key><string>#C695C6</string></dict></dict>
+      <dict><key>name</key><string>Keyword</string><key>scope</key><string>keyword - keyword.operator, keyword.operator.word</string><key>settings</key><dict><key>foreground</key><string>#C695C6</string><key>fontStyle</key><string>bold underline</string></dict></dict>
+      <dict><key>name</key><string>Operator</string><key>scope</key><string>keyword.operator</string><key>settings</key><dict><key>foreground</key><string>#F97B58</string></dict></dict>
+      <dict><key>name</key><string>Punctuation general</string><key>scope</key><string>punctuation.separator, punctuation.terminator, punctuation.definition</string><key>settings</key><dict><key>foreground</key><string>#A6ACB9</string></dict></dict>
+      <dict><key>name</key><string>Punctuation.section.embedded</string><key>scope</key><string>punctuation.section.embedded</string><key>settings</key><dict><key>foreground</key><string>#A6ACB9</string><key>background</key><string>#FFFFFF1A</string></dict></dict>
+      <dict><key>name</key><string>URL</string><key>scope</key><string>todo.url</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string><key>fontStyle</key><string>bold underline</string></dict></dict>
+
+      <!-- ─────────────  STRUCTURAL / META  ───────────── -->
+      <dict><key>name</key><string>Tags</string><key>scope</key><string>meta.tag.todo</string><key>settings</key><dict><key>foreground</key><string>#99C794</string></dict></dict>
+      <dict><key>name</key><string>Notes</string><key>scope</key><string>notes.todo</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+      <dict><key>name</key><string>Meta</string><key>scope</key><string>meta</string><key>settings</key><dict/>
+      </dict>
+
+      <!-- ─────────────  TASK BULLETS  ───────────── -->
+      <dict><key>name</key><string>Done bullet</string><key>scope</key><string>punctuation.definition.bullet.completed</string><key>settings</key><dict><key>foreground</key><string>#99C794</string><key>fontStyle</key><string>bold</string></dict></dict>
+      <dict><key>name</key><string>Pending bullet</string><key>scope</key><string>punctuation.definition.bullet.pending</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+      <dict><key>name</key><string>Cancelled bullet</string><key>scope</key><string>punctuation.definition.bullet.cancelled</string><key>settings</key><dict><key>foreground</key><string>#EC5F66</string></dict></dict>
+      <dict><key>name</key><string>Cancelled task</string><key>scope</key><string>meta.item.todo.cancelled</string><key>settings</key><dict><key>foreground</key><string>#EC5F66</string><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>Done meta</string><key>scope</key><string>meta.tag.todo.completed</string><key>settings</key><dict><key>foreground</key><string>#99C79480</string><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>Cancel meta</string><key>scope</key><string>meta.tag.todo.cancelled</string><key>settings</key><dict><key>foreground</key><string>#EC5F6680</string></dict></dict>
+
+      <!-- ─────────────  EMPHASIS  ───────────── -->
+      <dict><key>name</key><string>Italic punctuation</string><key>scope</key><string>punctuation.definition.italic</string><key>settings</key><dict><key>foreground</key><string>#D8DEE980</string></dict></dict>
+      <dict><key>name</key><string>Italic</string><key>scope</key><string>todo.italic</string><key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>Bold punctuation</string><key>scope</key><string>punctuation.definition.bold</string><key>settings</key><dict><key>foreground</key><string>#D8DEE980</string></dict></dict>
+      <dict><key>name</key><string>Bold</string><key>scope</key><string>todo.bold</string><key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
+
+      <!-- ─────────────  STRUCTURAL LINES  ───────────── -->
+      <dict><key>name</key><string>Archive separator</string><key>scope</key><string>meta.punctuation.archive.todo</string><key>settings</key><dict><key>foreground</key><string>#565D6C</string></dict></dict>
+      <dict><key>name</key><string>Separator</string><key>scope</key><string>meta.punctuation.separator.todo</string><key>settings</key><dict><key>foreground</key><string>#565D6C</string></dict></dict>
+
+      <!-- ─────────────  EXTRA SCOPES FROM LEGACY FILE  ───────────── -->
+      <dict><key>name</key><string>Variable</string><key>scope</key><string>variable.language, variable.other</string><key>settings</key><dict><key>foreground</key><string>#F9AE58</string></dict></dict>
+      <dict><key>name</key><string>Entity</string><key>scope</key><string>constant.character.entity</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+      <dict><key>name</key><string>Storage</string><key>scope</key><string>storage</string><key>settings</key><dict><key>foreground</key><string>#EC5F66</string></dict></dict>
+      <dict><key>name</key><string>Class name</string><key>scope</key><string>entity.name.type.class, support.class</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+      <dict><key>name</key><string>Function name</string><key>scope</key><string>entity.name.function</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string><key>fontStyle</key><string>underline</string></dict></dict>
+      <dict><key>name</key><string>Function argument</string><key>scope</key><string>variable.parameter</string><key>settings</key><dict><key>foreground</key><string>#F9AE58</string></dict></dict>
+      <dict><key>name</key><string>Tag name</string><key>scope</key><string>entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css</string><key>settings</key><dict><key>foreground</key><string>#EC5F66</string></dict></dict>
+      <dict><key>name</key><string>Tag attribute</string><key>scope</key><string>entity.other.attribute-name</string><key>settings</key><dict><key>foreground</key><string>#C695C6</string><key>fontStyle</key><string>underline</string></dict></dict>
+      <dict><key>name</key><string>Library function</string><key>scope</key><string>support.function, support.constant.property-value.css</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string><key>fontStyle</key><string>italic</string></dict></dict>
+      <dict><key>name</key><string>Library constant</string><key>scope</key><string>support.constant</string><key>settings</key><dict><key>foreground</key><string>#C695C6</string></dict></dict>
+      <dict><key>name</key><string>Library class/type</string><key>scope</key><string>support.type, support.class</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+      <dict><key>name</key><string>Library variable</string><key>scope</key><string>support.other.variable</string><key>settings</key><dict><key>foreground</key><string>#5FB4B4</string></dict></dict>
+
+      <!-- ─────────────  STATUS TAGS  ───────────── -->
+      <dict><key>name</key><string>Today</string><key>scope</key><string>string.other.tag.todo.today</string><key>settings</key><dict><key>background</key><string>#99C794</string><key>foreground</key><string>#303841</string></dict></dict>
+      <dict><key>name</key><string>High</string><key>scope</key><string>string.other.tag.todo.high</string><key>settings</key><dict><key>background</key><string>#F9AE58</string><key>foreground</key><string>#303841</string></dict></dict>
+      <dict><key>name</key><string>Low</string><key>scope</key><string>string.other.tag.todo.low</string><key>settings</key><dict><key>background</key><string>#A6ACB9</string><key>foreground</key><string>#303841</string></dict></dict>
+      <dict><key>name</key><string>Critical</string><key>scope</key><string>string.other.tag.todo.critical</string><key>settings</key><dict><key>background</key><string>#EC5F66</string><key>foreground</key><string>#303841</string></dict></dict>
+
+      <!-- ─────────────  INVALID / ERROR  ───────────── -->
+      <dict><key>name</key><string>Invalid</string><key>scope</key><string>invalid</string><key>settings</key><dict><key>background</key><string>#EC5F66</string><key>foreground</key><string>#F2F2F2</string></dict></dict>
+    </array>
+    <key>uuid</key><string>79ffdc08-d6a6-4052-8ee6-5cc1dda4bbf6</string>
+  </dict>
+</plist>
