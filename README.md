@@ -1,6 +1,6 @@
 # PlainTasks-Mariana-Themes
 
-A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sublime Text](https://www.sublimetext.com/) following the aesthetics of the excellent [Mariana Theme]([http://equinsuocha.io/material-theme/](https://vscodethemes.com/e/jrtools.mariana/mariana-sublime)).  
+A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sublime Text](https://www.sublimetext.com/) following the aesthetics of the excellent [Mariana Theme](https://vscodethemes.com/e/jrtools.mariana/mariana-sublime).  
 
 GitHub repository <https://github.com/jeromexlee/PlainTasks-Mariana-Themes>.
 
