@@ -4,6 +4,11 @@ A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sub
 
 GitHub repository <https://github.com/jeromexlee/PlainTasks-Mariana-Themes>.
 
+### Screenshots
+
+<img width="432" alt="image" src="https://github.com/user-attachments/assets/57cff387-f521-4ff5-9b97-372039528d96" />
+
+
 ### Requirements
 
 * Sublime Text
